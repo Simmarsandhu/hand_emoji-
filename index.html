@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Emotion To Emoji</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+    
+      <center>
+  
+        <br><br>
+        <h3 class="HEADER ">HAND EMOJIS <br>
+          <span>&#9996;
+
+        </span>
+          <span>&#128077;</span>
+          <span>&#128076; </span>
+          <span>&#9996; </span>
+          <span>&#128077;</span>
+         <span> &#128076;</span>
+  
+  
+  
+        </h3>
+         
+  
+        <p class="text_1" >Take your selfie while doing the gesture 
+            <br>
+          <b >thumbs up </b>
+          <br>
+          <b >ok</b>
+          <br>
+          <b >peace time </b>
+          <br>
+        </p>
+  
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <label >WEBCAM VIEW   </label>
+          <div id ="camera"></div>
+          <br><br>
+          <button onclick="capture()" class="btn" id="capturebtn">CAPTURE IMAGE </button>
+  
+          <br><br>
+  
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12" >
+          <label class="label_1">PREDICTION 1</label>
+          <p class="emotion_name" id="result_emotion_name"></p>
+          <p class="emoji" id="update_emoji "></p>
+          <label class="label_1">PREDICTION 2</label>
+          <p class="emotion_name" id="result_emotion_name2"></p>
+          <p class="emoji" id="update_emoji2 "></p>
+          
+  
+  
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>SNAPSHOT </label>
+          <DIV id="results">
+  
+          </DIV>
+          <br><br>
+          <button onclick="check()" class="btn" id="checkbtn">CHECK</button>
+        </div>
+  
+      </center>
+  
+    </div>
+  
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  

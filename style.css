@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://i.pinimg.com/750x/f0/59/bf/f059bf8e8e5734cda046e99cfa460ea0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h3{
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+
+}
+.text_1{
+background-color: #FFEF82;
+width: 30%;
+font-size: 20px;
+font-family:'Roboto Mono', monospace ;
+
+}
+label{
+    font-size: 20px;
+    padding : 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+button{
+    background-color: black;
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+    font-size: 20px;
+
+
+}
+#camera , #results{
+  border: 4px dashed black;
+  width: 350px;
+  height: 300px; 
+}
