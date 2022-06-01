@@ -50,8 +50,8 @@ function modelLoaded(){
          prediction2=results[1].label;
          speak()
 
-         if(results[0].label == "ok" ){
-             document.getElementById("update_emoji").innerHTML= "&#128076;";
+         if(results[0].label == "ok " ){
+             document.getElementById("update_emoji").innerHTML= "&#128076";
              
              
          }
@@ -62,7 +62,7 @@ function modelLoaded(){
             document.getElementById("update_emoji").innerHTML= "&#9996;";
             
         }
-        if(results[1].label == "ok" ){
+        if(results[1].label == "ok " ){
             document.getElementById("update_emoji2").innerHTML= "&#128076;";
             
         }
